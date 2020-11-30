@@ -787,6 +787,7 @@ class GimpFile:
                 properties['name'] = layer.name
                 properties['visible'] = layer.visible
                 properties['opacity'] = layer.opacity
+                properties['offsets'] = layer.offsets
                 result.append(properties)
 
             return_json(result)

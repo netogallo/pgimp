@@ -9,3 +9,4 @@ class Layer:
         self.visible = properties['visible']
         self.opacity = float(properties['opacity'])
         self.position = properties['position']
+        self.offsets = properties['offsets']
